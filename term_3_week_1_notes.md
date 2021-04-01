@@ -201,6 +201,8 @@ switch (userFavouriteColour) {
         console.log("The user's favourite colour is not in the rainbow!");
         break;
 }
+
+**Arrays:** [https://medium.com/swlh/array-prototypal-inheritance-aa25de1fd678]
 ----------------------------------------------------------------------------------------
 ## **JS Loops:**
 
@@ -338,7 +340,38 @@ function calculate(callback,a,b) {
 calculate(add,5,3);
 calculate(subtract,5,3);
 ----------------------------------------------------------------------------------------
+## **JS Input/Output:**
+
+- console.log("Hello World")
+- console.warn("This is a warning message")
+- console.error("This is an error message")
+- alert("This is an alert")
+- prompt("What is your name?")
+
+let name = prompt("What is your name")
+console.log("Your name is " + name)
+console.log(`Your name is ${name}`)
+
+**JS Objects:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description]
+----------------------------------------------------------------------------------------
+## **JS Math Operators:**
+- + (addition)
+- - (subtraction)
+- \/ (division)
+- * (multiplication)
+- % (remainder)
+- ** (exponentiation)
+- += or ++ (self addition)
+- -= or -- (self subtraction)
+- Math.floor(1.2); //always rounds down
+- Math.ceil(1.2); //always rounds up
+- Math.PI;
+
+**JS Math Methods:** [https://www.w3schools.com/js/js_math.asp]
+----------------------------------------------------------------------------------------
 ## **Additional Resources:**
+
+**JS Arrow Function:** [https://dev.to/sshymko/arrow-function-vs-closure-596n]
 
 **JS Conditional Cheatsheet:** [https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet]
 
