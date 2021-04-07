@@ -376,3 +376,7 @@ console.log(`Your name is ${name}`)
 **JS Conditional Cheatsheet:** [https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet]
 
 **JS Loops Cheatsheet:** [https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-loops/cheatsheet]
+----------------------------------------------------------------------------------------
+## **Thursday Class - 8/04/21:**
+
+
