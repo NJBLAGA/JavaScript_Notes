@@ -6,20 +6,20 @@ const greeting = (words) => {
 
 function join(a) {
     return function(b) {
-             return b + a
+        return b + a
     }
 }
 
 
 let addLine = join(",how are you today? ")
-// console.log(greeting("Hello Nathan! "))
+    // console.log(greeting("Hello Nathan! "))
 console.log(addLine("Hello Nathan! "))
 
 function mario(numberOfRows) {
     printedNumber = 1
     while (printedNumber <= numberOfRows) {
         console.log("#".repeat(printedNumber))
-        printedNumber +=1
+        printedNumber += 1
     }
 }
 
@@ -29,7 +29,7 @@ function mario(numberOfRows) {
     printedNumber = 1
     while (printedNumber <= numberOfRows) {
         console.log(" #".repeat(printedNumber))
-        printedNumber +=1
+        printedNumber += 1
     }
 }
 
@@ -37,4 +37,3 @@ console.log(mario(4))
 
 // ------------------------------------------------------------------
 // Week 2
-
