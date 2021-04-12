@@ -3,50 +3,46 @@
 ## **JS Intro:**
 
 ### **Script-tag**
-
-```js
 <script src="xxx.js"></script>
-```
 
 ### **Syntax:**
 
-```js
 var a  = 1
-// variable
+#variable
 
 let b = 2
-// scope
+#scope
 
 const c = 5
-// constant (cannot be changed)
+#constant (cannot be changed)
 
-String:
+### **String:**
 
 "Hello".length
-// length method
+#length method
 
 name = "kane"
 name.length
 
 name.charAt(1)
-// index
+#index
 
 "Hello " + "World!" = "Hello World!"
 
 `My name is ${name}` = "My name is kane"
-// string inter
+#string inter
 
-// Js = all numbers are floats
+#Js = all numbers are floats
 
-can use <,>, !, =<, || etc
+#can use <,>, !, =<, || etc
 
-// Using ===
+### **Using ===**
 
 123 == "123" = true
 
 123 === "123" = false #strict
 
-// Object (hash):
+### **Object (hash):**
 
 const foo = {}
 
@@ -73,44 +69,39 @@ person = name: "Matt"
 
 person["age"] = 41
 
-// OR
+OR
 
 person.age = 41
 
 person.address.city = city: "Wollongong"
 
 person.age = 42 #change
-```
 ----------------------------------------------------------------------------------------
 ## **JS Arrays:**
 
-```js
 const arr = ["Matt", 48, 4510]
 
 arr[1] = 48
-// index 1
-```
+#index 1
 
 - arr.length; = 3 elements
 - arr.includes(12); = false
 - arr.includes(48); = true
-- arr.push "Hello"; => add new element
-- arr.unshift(2); => insert element at start of the array
-- arr.pop(); => remove element at the end of the array 
-- arr.shift(); => remove element at the start of the array 
-- arr.length-1; => last item of the array
-- arr.splice(1, 1); => removes a specific amount of items from an array, starting at a specific position in the array.
+- arr.push "Hello"; #add new element
+- arr.unshift(2); #insert element at start of the array
+- arr.pop(); #remove element at the end of the array 
+- arr.shift(); #remove element at the start of the array 
+- arr.length-1; #last item of the array
+- arr.splice(1, 1); #removes a specific amount of items from an array, starting at a specific position in the array.
 
-```js
 let skittleColours = ["red, "orange", "yellow", "green". "purple"];
 
 let mmColours = ["red", "orange", yellow", "green", "brown"];
 
-- let candyColours = skittleColours.concat(mmColours); => combine
-- let distinctColours = Array.from(new Set(candyColours)); => create new set with unique values
-- let sortedColours = distinctColours.sort(); => sorts the array (alphabetically for strings, lowest-to-highest for numbers.)
-- let reverseSortedColours = sortedColours.reverse(); => reverse the array
-```
+- let candyColours = skittleColours.concat(mmColours); #combine
+- let distinctColours = Array.from(new Set(candyColours)); #create new set with unique values
+- let sortedColours = distinctColours.sort(); #sorts the array (alphabetically for strings, lowest-to-highest for numbers.)
+- let reverseSortedColours = sortedColours.reverse(); # reverse the array
 
 **Control Flow**
 
@@ -121,7 +112,6 @@ let mmColours = ["red", "orange", yellow", "green", "brown"];
 - switch(case)
 - for
 
-```js
 let coinFlip = "heads"
 
 if (coinFlip == "heads") {
@@ -147,7 +137,6 @@ if (true){
 if (false){
     console.log("Always appears because the condition always returns FALSE."):
 }
-```
 
 **Falsey Vales:**
 
@@ -160,7 +149,6 @@ if (false){
 
 **And (&&):**
 
-```js
 if ("0" == 0 && "hello" === "hello"){
     console.log("Two conditions both were met!");
 }
@@ -168,11 +156,9 @@ if ("0" == 0 && "hello" === "hello"){
 if ("hello" == "world" && 10 > 5){
     console.log("Only one condition was met, not both, so this message won't appear.");
 }
-```
 
 **Or (||):**
 
-```js
 if (0 < 10 || "banana" == 4){
     console.log("Only one condition was met, but the OR operator says that's good enough!");
 }
@@ -184,11 +170,9 @@ if (sky === "blue"){
 } else {
     console.log("Sky is not blue today...");
 }
-```
 
 **else if:**
 
-```js
 let newPassword = "Password123";
 
 if (newPassword[0] != newPassword.toUpperCase()[0]){
@@ -198,11 +182,9 @@ if (newPassword[0] != newPassword.toUpperCase()[0]){
 } else {
     console.log("Password is okay!");
 }
-```
 
 **switch(case statement):**
 
-```js
 let userFavouriteColour = "pink"
 
 switch (userFavouriteColour) {
@@ -219,7 +201,6 @@ switch (userFavouriteColour) {
         console.log("The user's favourite colour is not in the rainbow!");
         break;
 }
-```
 
 **Arrays:** [https://medium.com/swlh/array-prototypal-inheritance-aa25de1fd678]
 ----------------------------------------------------------------------------------------
@@ -227,7 +208,6 @@ switch (userFavouriteColour) {
 
 **for:**
 
-```js
 for (let counter = 0; counter < 5; counter++){
     console.log('This message has appeared ${counter} previous times.');
 }
@@ -242,11 +222,9 @@ for (let attemptsRemaining = 5; attemptsRemaining > 0;){
         attemptsRemaining--;
     }
 }
-```
 
 **while loop:**
 
-```js
 let olympicMedals = 0;
 
 while (olympicMedals < 10){
@@ -255,23 +233,19 @@ while (olympicMedals < 10){
 }
 
 console.log("Okay, you have 10, that's enough for one day!");
-```
 
 ### **Looping over arrays:**
 
 **for each:**
 
-```js
 let rainbowColours = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 
 rainbowColours.forEach(colour => {
     console.log("This fancy colour ${colour} is in the rainbow!");
 })
-```
 
 **map:**
 
-```js
 let rainbowColours = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 
 let capitalizedColourNames = rainbowColours.map(colour => {
@@ -279,12 +253,10 @@ let capitalizedColourNames = rainbowColours.map(colour => {
 })
 
 console.log(capitalizedColourNames);
-```
 ----------------------------------------------------------------------------------------
 ## **JS Functions:**
 
-```js
-<!-- Method or Procedure - set of statements that perform tasks -->
+#Method or Procedure - set of statements that perform tasks
 
 function add(x, y) {
     return x + y;
@@ -307,7 +279,6 @@ function myOtherArgs(x,y, ...args) {
 myOtherArgs(11,22,33,44,55,66);
 
 (...args rest operator)
-```
 
 **first-class function:**
 
@@ -321,7 +292,6 @@ myOtherArgs(11,22,33,44,55,66);
 
 - functions without a name
 
-```js
 const myCoolFunction = function(input) {
     console.log(input);
 }
@@ -369,8 +339,6 @@ function calculate(callback,a,b) {
 
 calculate(add,5,3);
 calculate(subtract,5,3);
-```
-
 ----------------------------------------------------------------------------------------
 ## **JS Input/Output:**
 
@@ -380,26 +348,24 @@ calculate(subtract,5,3);
 - alert("This is an alert")
 - prompt("What is your name?")
 
-```js
 let name = prompt("What is your name")
 console.log("Your name is " + name)
 console.log(`Your name is ${name}`)
-```
 
 **JS Objects:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description]
 ----------------------------------------------------------------------------------------
 ## **JS Math Operators:**
-- ```+``` (addition)
-- ```-``` (subtraction)
-- ```\/``` (division)
-- ```*``` (multiplication)
-- ```%``` (remainder)
-- ```**``` (exponentiation)
-- ```+=``` or ```++``` (self addition)
-- ```-=``` or ```--``` (self subtraction)
-- ```Math.floor(1.2);``` => always rounds down
-- ```Math.ceil(1.2);``` => always rounds up
-- ```Math.PI;```
+- + (addition)
+- - (subtraction)
+- \/ (division)
+- * (multiplication)
+- % (remainder)
+- ** (exponentiation)
+- += or ++ (self addition)
+- -= or -- (self subtraction)
+- Math.floor(1.2); //always rounds down
+- Math.ceil(1.2); //always rounds up
+- Math.PI;
 
 **JS Math Methods:** [https://www.w3schools.com/js/js_math.asp]
 ----------------------------------------------------------------------------------------
@@ -407,94 +373,9 @@ console.log(`Your name is ${name}`)
 
 **JS Arrow Function:** [https://dev.to/sshymko/arrow-function-vs-closure-596n]
 
+**JS Closures:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures]
+
+
 **JS Conditional Cheatsheet:** [https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet]
 
 **JS Loops Cheatsheet:** [https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-loops/cheatsheet]
-
-**JS Node Masterclass:** [https://edstem.org/courses/4965/lessons/8036/slides/58127]
-----------------------------------------------------------------------------------------
-## **Thursday Class - 8/04/21:**
-
-- MDN Docs 
-
-## **Week 1 Challenges:**
-
-// Write a function that takes the user's age in years and tells them how old they are days.
-
-```js
-const yearsInDays = (age) => {
-    ageInYears = age * 365.25
-    console.log(ageInYears)
-}
-
-console.log(yearsInDays(31))
-```
-
-```js
-function compareNumbers(a, b) {
-    return a - b
-}
-
-function highLow(numberArray) {
-    numberArray.sort(compareNumbers)
-         const lowest = numberArray[0]
-         const highest = numberArray[numberArray.length - 1]
-    return {
-      highest,
-      lowest,
-    }
-}
-
-testArray1 = [3, 2, 8, 44 , 1 ,9]
-console.log(highLow(testArray1))
-```
-----------------------------------------------------------------------------------------
-## **Friday Class - 9/04/21:**
-
-Challenge: find the bug in this function:
-
-```js
-function duplicateSpreadsheet(original) {
-  let copy = {
-    created: Date.now(),
-    author: original.author,
-    cells: original.cells,
-    metadata: original.metadata
-  }
-  copy.metadata.title = 'Copy of ' + original.metadata.title
-  return copy
-}
-```
-
-Notes:
-- This relates to what we talking about yesterday, with the danger of "pass by reference", and assigning one object to another
-- This is tricky! Read the code, think about it, discuss.
-- Try running the function with the test below and seeing what happens
-
-```js
-const spreadSheet = {
-  author: "Billy Bob",
-  cells: 'some spreadsheet cells...',
-  metadata: {
-    title: 'Some kind of spreadsheet'
-  }
-
-// Solution:
-const stringified = JSON.stringify(spreadSheet)
-const parsed = JSON.parse(stringified)
-console.log(spreadSheet)
-console.log(stringified)
-console.log(parsed)
-
-Object.freeze(spreadSheet)
-Object.freeze(spreadSheet.metadata)
-
-
-const spreadsheetDuplicate = duplicateSpreadsheet(spreadSheet)
-console.log("spreadsheetDuplicate:", spreadsheetDuplicate)
-console.log("spreadSheet (original):", spreadSheet)
-```
-
-**JS Glossary:** [http://jargon.js.org/_glossary/ARITY.md]
-
-
