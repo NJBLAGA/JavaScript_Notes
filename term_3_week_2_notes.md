@@ -34,6 +34,80 @@ function subtract(num1, num2) {
 }
 console.log(subtract(20, "Hello"))
 ```
+
+## **Error Types and Custom Errors:**
+
+**ReferenceError:**
+
+```js
+// Pretty simple, you've tried to access a variable that isn't in scope or hasn't been defined yet.
+function willThrow() {
+    return foo // throws ReferenceError because foo hasn't been declared yet
+}
+```
+
+**SyntaxError:**
+
+```js
+// Happens when the code you have written breaks JavaScript rules. 
+// For example function signatures that do not have brackets, arrays without comma separated values etc. 
+// These errors can't be handled except writing syntactically correct code.
+function willThrow(( {  // throws SyntaxError 
+    return
+}
+5.toPrecision(2) //throws SyntaxError
+```
+
+**TypeError:**
+
+```js
+// These errors occur most often when we call a function that isn't defined for that object type.
+let string = 'foo'
+let number = 5
+
+number.toPrecision(2)
+string.toPrecision(2) // throws TypeError. No 'toPrecision' function on a string
+```
+
+**Custom errors:**
+
+```js
+// There's a lot of different error types out there but sometimes we'll want to create our own custom errors. 
+// We do this by extending the built-in Error class.
+// We can overwrite the existing attributes (in this case name) 
+// and we can create our own attributes that don't exist in the base class 
+// (in this case solution) as well as creating custom functions.
+class ValidationError extends Error {
+    constructor(message, solution) {
+        super(message)
+        this.name = "ValidationError"
+        this.solution = solution
+    }
+}
+
+function validateUser(userObject) {
+    if (!userObject) {
+        throw new ValidationError("No user exists", "Create an account before moving on")
+    } else if (!user.name) {
+        throw new ValidationError(
+            "Missing field: name", 
+            "You can add your name in the 'about me' section"  
+1        )
+    } else if (!user.email) {
+        throw new ValidationError(
+            "Missing field: email", 
+            "Update your email in the preferences section"
+        )
+    }
+    return userObject
+}
+
+try {
+    validateUser(databaseData)
+} catch (err) {
+    alert("Something is missing! \n" + err.message + "\n" + error.solution)
+}
+```
 ----------------------------------------------------------------------------------------
 ## **NodeJS Intro:**
 
@@ -140,3 +214,59 @@ Run test with:
 ```t
 npm run test
 ```
+----------------------------------------------------------------------------------------
+## **The node REPL:**
+
+Remember that REPL stands for Read-Eval-Print-Loop, and is just an interactive shell that can run a particular language in the terminal. 
+Just like we use IRB for Ruby, the node REPL is useful for experimenting, understanding and debugging JavaScript.
+
+The following special commands are supported by all REPL instances (from Node.js REPL docs:
+
+```js
+.exit - Close the I/O stream, causing the REPL to exit. (control + d)
+.break - When in the process of inputting a multi-line expression, entering the .break command (or pressing the <ctrl>-C key combination) will abort further input or processing of that expression.
+.clear - Resets the REPL context to an empty object and clears any multi-line expression currently being input.
+.help - Show this list of special commands.
+.save - Save the current REPL session to a file: > .save ./file/to/save.js
+.load - Load a file into the current REPL session. > .load ./file/to/load.js
+.editor - Enter editor mode (<ctrl>-D to finish, <ctrl>-C to cancel).
+```
+
+**Node REPL for Javascript:** [https://nodejs.org/en/knowledge/REPL/how-to-use-nodejs-repl/]
+----------------------------------------------------------------------------------------
+It is a common practice to avoid installing testing frameworks into our project in the production environment, and only install them in the development and test environments (particularly for unit testing). Read more about different types of environments and where testing is performed in this blog post.
+
+The npm install command can take an additional argument ```js-D```, or the longer version ```js--save-dev```, to indicate we only want to install a package in the development/test environment
+
+Or just use this command:
+
+```js
+npm i jest -D
+```
+
+Jest tests are structured like so:
+
+```js
+describe block: Test group or collection of tests (optional)
+
+it or test block: Individual test
+
+Expectations of the test (one or many)
+```
+**Matches:** [https://jestjs.io/docs/using-matchers]
+
+[https://jestjs.io/docs/expect]
+----------------------------------------------------------------------------------------
+## **Additional Resources:**
+
+
+**Node.js v15.14.0 Documentation:** [https://nodejs.org/api/fs.html#fs_file_sy]
+**Throw Statement:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw]
+**Scripts:** [https://docs.npmjs.com/cli/v7/using-npm/scripts]
+**Types of Testing:** [https://devqa.io/types-of-testing/]
+**Exporting Module:** [https://www.tutorialsteacher.com/nodejs/nodejs-module-exports] [https://www.sitepoint.com/understanding-module-exports-exports-node-js/] [https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export]
+**Development Test Staging Production:** [https://janelbrandon.medium.com/understanding-environments-c16e4c703e4e]
+
+
+
+

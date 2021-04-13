@@ -25,15 +25,18 @@ function mario(numberOfRows) {
 
 console.log(mario(4))
 
-function mario(numberOfRows) {
+function superMario(numberOfRows) {
     printedNumber = 1
+    spaces = numberOfRows
     while (printedNumber <= numberOfRows) {
-        console.log(" #".repeat(printedNumber))
+        console.log(" ".repeat(spaces) + "#".repeat(printedNumber * 2))
         printedNumber += 1
+        spaces -= 1
     }
 }
 
 console.log(mario(4))
+console.log(superMario(16))
 
 // ------------------------------------------------------------------
 // Week 2
