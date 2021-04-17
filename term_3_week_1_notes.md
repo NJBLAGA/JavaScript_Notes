@@ -1,13 +1,12 @@
 # **Term 3 - Week 1 - Notes - Nathan Blaga**
-----------------------------------------------------------------------------------------
 ## **JS Intro:**
+### **Script-tag:**
 
-### **Script-tag**
+```js
 <script src="xxx.js"></script>
+```
 
 ### **String:**
-
-
 ```js
 <!-- length method --> 
 "Hello".length
@@ -19,7 +18,6 @@ name.charAt(1)
 
 
 ### **Using ===**
-
 ```js
 123 == "123" = true
 
@@ -27,8 +25,7 @@ name.charAt(1)
 //strict
 ```
 
-### **Object (hash):**
-
+### **Object (Hash):**
 ```js
 const foo = {}
 
@@ -64,7 +61,6 @@ person.address.city = city: "Wollongong"
 person.age = 42 #change
 ```
 ## **JS Arrays:**
-
 ```js
 const arr = ["Matt", 48, 4510]
 
@@ -97,7 +93,6 @@ let reverseSortedColours = sortedColours.reverse() //reverse the array
 ```
 
 **Control Flow**
-
 - if
 - if else
 - if elseif
@@ -142,7 +137,6 @@ if (false){
 - undefined
 
 **And (&&):**
-
 ```js
 if ("0" == 0 && "hello" === "hello"){
     console.log("Two conditions both were met!");
@@ -199,9 +193,7 @@ switch (userFavouriteColour) {
 }
 ```
 **Arrays:** [https://medium.com/swlh/array-prototypal-inheritance-aa25de1fd678]
-
 ## **JS Loops:**
-
 **For:**
 ```js
 for (let counter = 0; counter < 5; counter++){
@@ -250,7 +242,6 @@ let capitalizedColourNames = rainbowColours.map(colour => {
 
 console.log(capitalizedColourNames);
 ```
-
 ## **JS Functions:**
 ```js
 // Method or Procedure - set of statements that perform tasks
@@ -284,10 +275,8 @@ myOtherArgs(11,22,33,44,55,66);
 - pass as parameter
 - return from other functions
 
-
 **Anonymous function:**
-
-- functions without a name
+- Functions without a name
 ```js
 const myCoolFunction = function(input) {
     console.log(input);
@@ -337,7 +326,6 @@ function calculate(callback,a,b) {
 calculate(add,5,3);
 calculate(subtract,5,3);
 ```
-----------------------------------------------------------------------------------------
 ## **JS Input/Output:**
 
 - console.log("Hello World")
@@ -351,8 +339,8 @@ console.log("Your name is " + name)
 console.log(`Your name is ${name}`)
 ```
 **JS Objects:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description]
-----------------------------------------------------------------------------------------
 ## **JS Math Operators:**
+```js
 - + (addition)
 - - (subtraction)
 - \/ (division)
@@ -364,10 +352,10 @@ console.log(`Your name is ${name}`)
 - Math.floor(1.2) (always rounds down)
 - Math.ceil(1.2) (always rounds up)
 - Math.PI
+```
+## **Additional Resources:**
 
 **JS Math Methods:** [https://www.w3schools.com/js/js_math.asp]
-----------------------------------------------------------------------------------------
-## **Additional Resources:**
 
 **JS Arrow Function:** [https://dev.to/sshymko/arrow-function-vs-closure-596n]
 
