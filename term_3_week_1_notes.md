@@ -5,52 +5,38 @@
 ### **Script-tag**
 <script src="xxx.js"></script>
 
-### **Syntax:**
-
-var a  = 1
-#variable
-
-let b = 2
-#scope
-
-const c = 5
-#constant (cannot be changed)
-
 ### **String:**
 
+
+```js
+<!-- length method --> 
 "Hello".length
-#length method
 
-name = "kane"
-name.length
-
+<!-- index method -->
 name.charAt(1)
-#index
+```
 
-"Hello " + "World!" = "Hello World!"
 
-`My name is ${name}` = "My name is kane"
-#string inter
-
-#Js = all numbers are floats
-
-#can use <,>, !, =<, || etc
 
 ### **Using ===**
 
+```js
 123 == "123" = true
 
-123 === "123" = false #strict
+123 === "123" = false 
+//strict
+```
 
 ### **Object (hash):**
 
+```js
 const foo = {}
 
 foo = object {}
 
 foo["name"] = "John"
 
-foo =  object "John
+foo =  object["John"]
 
 const person ={
     name: "Matt",
@@ -76,32 +62,39 @@ person.age = 41
 person.address.city = city: "Wollongong"
 
 person.age = 42 #change
-----------------------------------------------------------------------------------------
+```
 ## **JS Arrays:**
 
+```js
 const arr = ["Matt", 48, 4510]
 
 arr[1] = 48
-#index 1
+// index 1
+```
 
-- arr.length; = 3 elements
-- arr.includes(12); = false
-- arr.includes(48); = true
-- arr.push "Hello"; #add new element
-- arr.unshift(2); #insert element at start of the array
-- arr.pop(); #remove element at the end of the array 
-- arr.shift(); #remove element at the start of the array 
-- arr.length-1; #last item of the array
-- arr.splice(1, 1); #removes a specific amount of items from an array, starting at a specific position in the array.
-
+```js
+- arr.length = 3 elements
+- arr.includes(12) = false
+- arr.includes(48) = true
+- arr.push "Hello" //add new element
+- arr.unshift(2) //insert element at start of the array
+- arr.pop() //remove element at the end of the array 
+- arr.shift() //remove element at the start of the array 
+- arr.length-1 //last item of the array
+- arr.splice(1, 1) //removes a specific amount of items from an array, 
+//starting at a specific position in the array. 
+```
+```js
 let skittleColours = ["red, "orange", "yellow", "green". "purple"];
 
 let mmColours = ["red", "orange", yellow", "green", "brown"];
 
-- let candyColours = skittleColours.concat(mmColours); #combine
-- let distinctColours = Array.from(new Set(candyColours)); #create new set with unique values
-- let sortedColours = distinctColours.sort(); #sorts the array (alphabetically for strings, lowest-to-highest for numbers.)
-- let reverseSortedColours = sortedColours.reverse(); # reverse the array
+let candyColours = skittleColours.concat(mmColours) //combine
+let distinctColours = Array.from(new Set(candyColours)) //create new set with unique values
+let sortedColours = distinctColours.sort()
+//sorts the array (alphabetically for strings, lowest-to-highest for numbers.)
+let reverseSortedColours = sortedColours.reverse() //reverse the array
+```
 
 **Control Flow**
 
@@ -112,6 +105,7 @@ let mmColours = ["red", "orange", yellow", "green", "brown"];
 - switch(case)
 - for
 
+```js
 let coinFlip = "heads"
 
 if (coinFlip == "heads") {
@@ -137,7 +131,7 @@ if (true){
 if (false){
     console.log("Always appears because the condition always returns FALSE."):
 }
-
+```
 **Falsey Vales:**
 
 - false
@@ -149,6 +143,7 @@ if (false){
 
 **And (&&):**
 
+```js
 if ("0" == 0 && "hello" === "hello"){
     console.log("Two conditions both were met!");
 }
@@ -156,9 +151,10 @@ if ("0" == 0 && "hello" === "hello"){
 if ("hello" == "world" && 10 > 5){
     console.log("Only one condition was met, not both, so this message won't appear.");
 }
+```
 
 **Or (||):**
-
+```js
 if (0 < 10 || "banana" == 4){
     console.log("Only one condition was met, but the OR operator says that's good enough!");
 }
@@ -170,9 +166,9 @@ if (sky === "blue"){
 } else {
     console.log("Sky is not blue today...");
 }
-
+```
 **else if:**
-
+```js
 let newPassword = "Password123";
 
 if (newPassword[0] != newPassword.toUpperCase()[0]){
@@ -182,9 +178,9 @@ if (newPassword[0] != newPassword.toUpperCase()[0]){
 } else {
     console.log("Password is okay!");
 }
-
+```
 **switch(case statement):**
-
+```js
 let userFavouriteColour = "pink"
 
 switch (userFavouriteColour) {
@@ -201,13 +197,13 @@ switch (userFavouriteColour) {
         console.log("The user's favourite colour is not in the rainbow!");
         break;
 }
-
+```
 **Arrays:** [https://medium.com/swlh/array-prototypal-inheritance-aa25de1fd678]
-----------------------------------------------------------------------------------------
+
 ## **JS Loops:**
 
-**for:**
-
+**For:**
+```js
 for (let counter = 0; counter < 5; counter++){
     console.log('This message has appeared ${counter} previous times.');
 }
@@ -222,9 +218,9 @@ for (let attemptsRemaining = 5; attemptsRemaining > 0;){
         attemptsRemaining--;
     }
 }
-
+```
 **while loop:**
-
+```js
 let olympicMedals = 0;
 
 while (olympicMedals < 10){
@@ -243,9 +239,9 @@ let rainbowColours = ["red", "orange", "yellow", "green", "blue", "indigo", "vio
 rainbowColours.forEach(colour => {
     console.log("This fancy colour ${colour} is in the rainbow!");
 })
-
-**map:**
-
+```
+**Map:**
+```js
 let rainbowColours = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 
 let capitalizedColourNames = rainbowColours.map(colour => {
@@ -253,10 +249,11 @@ let capitalizedColourNames = rainbowColours.map(colour => {
 })
 
 console.log(capitalizedColourNames);
-----------------------------------------------------------------------------------------
-## **JS Functions:**
+```
 
-#Method or Procedure - set of statements that perform tasks
+## **JS Functions:**
+```js
+// Method or Procedure - set of statements that perform tasks
 
 function add(x, y) {
     return x + y;
@@ -279,7 +276,7 @@ function myOtherArgs(x,y, ...args) {
 myOtherArgs(11,22,33,44,55,66);
 
 (...args rest operator)
-
+```
 **first-class function:**
 
 - assigned to variables (first class object)
@@ -288,10 +285,10 @@ myOtherArgs(11,22,33,44,55,66);
 - return from other functions
 
 
-**anonymous function:**
+**Anonymous function:**
 
 - functions without a name
-
+```js
 const myCoolFunction = function(input) {
     console.log(input);
 }
@@ -306,9 +303,9 @@ const myArrayIncremented = myArray.map(
 );
 
 console.log(myArrayIncremented);
-
+```
 **fat arrows (replaces function syntax):**
-
+```js
 const myCoolFunction = (input) => {
     console.log(input);
 }
@@ -320,9 +317,9 @@ let multiplier = function(x,y) {
 }
 
 let multiplier = (x,y) => x * y;
-
+```
 **callback function:**
-
+```js
 function add(a,b) {
     console.log("a+b =", a+b);
     return a+b;
@@ -339,6 +336,7 @@ function calculate(callback,a,b) {
 
 calculate(add,5,3);
 calculate(subtract,5,3);
+```
 ----------------------------------------------------------------------------------------
 ## **JS Input/Output:**
 
@@ -347,11 +345,11 @@ calculate(subtract,5,3);
 - console.error("This is an error message")
 - alert("This is an alert")
 - prompt("What is your name?")
-
+```js
 let name = prompt("What is your name")
 console.log("Your name is " + name)
 console.log(`Your name is ${name}`)
-
+```
 **JS Objects:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description]
 ----------------------------------------------------------------------------------------
 ## **JS Math Operators:**
@@ -363,9 +361,9 @@ console.log(`Your name is ${name}`)
 - ** (exponentiation)
 - += or ++ (self addition)
 - -= or -- (self subtraction)
-- Math.floor(1.2); //always rounds down
-- Math.ceil(1.2); //always rounds up
-- Math.PI;
+- Math.floor(1.2) (always rounds down)
+- Math.ceil(1.2) (always rounds up)
+- Math.PI
 
 **JS Math Methods:** [https://www.w3schools.com/js/js_math.asp]
 ----------------------------------------------------------------------------------------

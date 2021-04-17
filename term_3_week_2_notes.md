@@ -253,17 +253,22 @@ it or test block: Individual test
 
 Expectations of the test (one or many)
 ```
-**Matches:** [https://jestjs.io/docs/using-matchers]
-
-[https://jestjs.io/docs/expect]
-----------------------------------------------------------------------------------------
 ## **Additional Resources:**
-https://grichardshell.com/six-lives-exercise-evaluating-your-rankings/
 **Node.js v15.14.0 Documentation:** [https://nodejs.org/api/fs.html#fs_file_sy]
+
 **Throw Statement:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw]
+
 **Scripts:** [https://docs.npmjs.com/cli/v7/using-npm/scripts]
+
 **Types of Testing:** [https://devqa.io/types-of-testing/]
-**Exporting Module:** [https://www.tutorialsteacher.com/nodejs/nodejs-module-exports] [https://www.sitepoint.com/understanding-module-exports-exports-node-js/] [https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export]
+
+**Exporting Module:** [https://www.tutorialsteacher.com/nodejs/nodejs-module-exports] 
+[https://www.sitepoint.com/understanding-module-exports-exports-node-js/]
+
+ [https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export]
+
 **Development Test Staging Production:** [https://janelbrandon.medium.com/understanding-environments-c16e4c703e4e]
-----------------------------------------------------------------------------------------
+
+
+
 
