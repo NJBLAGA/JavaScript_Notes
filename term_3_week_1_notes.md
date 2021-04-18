@@ -5,7 +5,6 @@
 ```js
 <script src="xxx.js"></script>
 ```
-
 ### **String:**
 ```js
 <!-- length method --> 
@@ -14,9 +13,6 @@
 <!-- index method -->
 name.charAt(1)
 ```
-
-
-
 ### **Using ===**
 ```js
 123 == "123" = true
@@ -24,7 +20,6 @@ name.charAt(1)
 123 === "123" = false 
 //strict
 ```
-
 ### **Object (Hash):**
 ```js
 const foo = {}
@@ -67,7 +62,6 @@ const arr = ["Matt", 48, 4510]
 arr[1] = 48
 // index 1
 ```
-
 ```js
 - arr.length = 3 elements
 - arr.includes(12) = false
@@ -91,7 +85,6 @@ let sortedColours = distinctColours.sort()
 //sorts the array (alphabetically for strings, lowest-to-highest for numbers.)
 let reverseSortedColours = sortedColours.reverse() //reverse the array
 ```
-
 **Control Flow**
 - if
 - if else
@@ -116,7 +109,6 @@ if (randomNumber == 4){
 if (randomNumber === 4){
     console.log("The number was equal to 4!");
 }
-
 console.log(1 == 1) // always true
 
 if (true){
@@ -135,7 +127,6 @@ if (false){
 - NaN(not a number)
 - null
 - undefined
-
 **And (&&):**
 ```js
 if ("0" == 0 && "hello" === "hello"){
@@ -146,7 +137,6 @@ if ("hello" == "world" && 10 > 5){
     console.log("Only one condition was met, not both, so this message won't appear.");
 }
 ```
-
 **Or (||):**
 ```js
 if (0 < 10 || "banana" == 4){
@@ -327,7 +317,6 @@ calculate(add,5,3);
 calculate(subtract,5,3);
 ```
 ## **JS Input/Output:**
-
 - console.log("Hello World")
 - console.warn("This is a warning message")
 - console.error("This is an error message")
