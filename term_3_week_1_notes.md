@@ -182,7 +182,6 @@ switch (userFavouriteColour) {
         break;
 }
 ```
-**Arrays:** [https://medium.com/swlh/array-prototypal-inheritance-aa25de1fd678]
 ## **JS Loops:**
 **For:**
 ```js
@@ -327,7 +326,6 @@ let name = prompt("What is your name")
 console.log("Your name is " + name)
 console.log(`Your name is ${name}`)
 ```
-**JS Objects:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description]
 ## **JS Math Operators:**
 ```js
 - + (addition)
@@ -342,15 +340,3 @@ console.log(`Your name is ${name}`)
 - Math.ceil(1.2) (always rounds up)
 - Math.PI
 ```
-## **Additional Resources:**
-
-**JS Math Methods:** [https://www.w3schools.com/js/js_math.asp]
-
-**JS Arrow Function:** [https://dev.to/sshymko/arrow-function-vs-closure-596n]
-
-**JS Closures:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures]
-
-
-**JS Conditional Cheatsheet:** [https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet]
-
-**JS Loops Cheatsheet:** [https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-loops/cheatsheet]

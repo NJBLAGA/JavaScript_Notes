@@ -206,8 +206,7 @@ The following special commands are supported by all REPL instances (from Node.js
 .editor //Enter editor mode (<ctrl>-D to finish, <ctrl>-C to cancel).
 ```
 
-**Node REPL for Javascript:** [https://nodejs.org/en/knowledge/REPL/how-to-use-nodejs-repl/]
-
+**Node REPL for Javascript:**
 
 It is a common practice to avoid installing testing frameworks into our project in the production environment, and only install them in the development and test environments (particularly for unit testing). Read more about different types of environments and where testing is performed in this blog post.
 
@@ -225,20 +224,3 @@ it or test block: Individual test
 
 Expectations of the test (one or many)
 ```
-## **Additional Resources:**
-**Node.js v15.14.0 Documentation:** [https://nodejs.org/api/fs.html#fs_file_sy]
-
-**Throw Statement:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw]
-
-**Scripts:** [https://docs.npmjs.com/cli/v7/using-npm/scripts]
-
-**Types of Testing:** [https://devqa.io/types-of-testing/]
-
-**Exporting Module:** [https://www.tutorialsteacher.com/nodejs/nodejs-module-exports] 
-[https://www.sitepoint.com/understanding-module-exports-exports-node-js/] [https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export]
-
-**Development Test Staging Production:** [https://janelbrandon.medium.com/understanding-environments-c16e4c703e4e]
-
-
-
-
