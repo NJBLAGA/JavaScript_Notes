@@ -24,5 +24,5 @@
 
 **Week 3:**
 
-
+- **Eloquent Javascript:** [https://eloquentjavascript.net/]
 
