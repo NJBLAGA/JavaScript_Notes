@@ -25,4 +25,8 @@
 **Week 3:**
 
 - **Eloquent Javascript:** [https://eloquentjavascript.net/]
-
+- **Morning Challenge:** [https://edstem.org/courses/4966/lessons/10539/slides/76677] [https://edstem.org/courses/4966/lessons/10540/slides/76679]
+- **Dice Challenge -Andrew:** [https://github.com/Andrew-CC-Martin/dice-game]
+- **Dice Challenge - Alex:** [https://github.com/CoderAcademy-ALL/dice_game]
+- **Event Reference:** [https://developer.mozilla.org/en-US/docs/Web/Events] => EVENT LISTENERS 
+- **JS innerHTML, innerText and textContent:** https://dev.to/4myc/javascript-innerhtml-innertext-and-textcontent-ih]
