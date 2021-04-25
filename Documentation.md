@@ -3,6 +3,7 @@
 
 **Week 1:**
 - **Arrays:** [https://medium.com/swlh/array-prototypal-inheritance-aa25de1fd678]
+- **Array Methods:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array]
 - **Prototype:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain]
 - **JavaScript Object Constructors:** [https://www.w3schools.com/js/js_object_constructors.asp]
 - **JS Math Methods:** [https://www.w3schools.com/js/js_math.asp]
@@ -11,6 +12,7 @@
 - **JS Conditional Cheatsheet:** [https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet]
 - **JS Loops Cheatsheet:** [https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-loops/cheatsheet]
 - **JS Objects:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description]
+- **JS TypeOf Method:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null]
 
 **Week 2:**
 
@@ -29,4 +31,7 @@
 - **Dice Challenge -Andrew:** [https://github.com/Andrew-CC-Martin/dice-game]
 - **Dice Challenge - Alex:** [https://github.com/CoderAcademy-ALL/dice_game]
 - **Event Reference:** [https://developer.mozilla.org/en-US/docs/Web/Events] => EVENT LISTENERS 
-- **JS innerHTML, innerText and textContent:** https://dev.to/4myc/javascript-innerhtml-innertext-and-textcontent-ih]
+- **JS innerHTML, innerText and textContent:** [https://dev.to/4myc/javascript-innerhtml-innertext-and-textcontent-ih]
+
+
+**Week 3:**
