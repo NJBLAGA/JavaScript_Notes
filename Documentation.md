@@ -1,6 +1,5 @@
 
 ## **Additional Resources:**
-
 **Week 1:**
 - **Arrays:** [https://medium.com/swlh/array-prototypal-inheritance-aa25de1fd678]
 - **Array Methods:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array]
@@ -15,7 +14,6 @@
 - **JS TypeOf Method:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null]
 
 **Week 2:**
-
 - **Node REPL for Javascript:** [https://nodejs.org/en/knowledge/REPL/how-to-use-nodejs-repl/]
 - **Node.js v15.14.0 Documentation:** [https://nodejs.org/api/fs.html#fs_file_sy]
 - **Throw Statement:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw]
@@ -25,7 +23,6 @@
 - **Development Test Staging Production:** [https://janelbrandon.medium.com/understanding-environments-c16e4c703e4e]
 
 **Week 3:**
-
 - **Eloquent Javascript:** [https://eloquentjavascript.net/]
 - **Morning Challenge:** [https://edstem.org/courses/4966/lessons/10539/slides/76677] [https://edstem.org/courses/4966/lessons/10540/slides/76679]
 - **Dice Challenge -Andrew:** [https://github.com/Andrew-CC-Martin/dice-game]
@@ -33,8 +30,7 @@
 - **Event Reference:** [https://developer.mozilla.org/en-US/docs/Web/Events] => EVENT LISTENERS 
 - **JS innerHTML, innerText and textContent:** [https://dev.to/4myc/javascript-innerhtml-innertext-and-textcontent-ih]
 
-
-**Week 3:**
+**Week 4:**
 - **Event Loops - MDN Docs:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop]
 - **Practical DEV - Call Stack:** [https://dev.to/ogwurujohnson/demystifying-the-javascript-call-stack-1ppc]
 

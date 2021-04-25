@@ -4,3 +4,8 @@
 **Tuesday/Wednesday:**
 - Workbook Questions 1-8
 
+
+
+- constructors (classes)
+- JSON
+

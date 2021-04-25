@@ -8,7 +8,6 @@
 - One Thread == One Call Stack == One Thing At a Time (Philip Roberts) -> One thing at a time
 - Drawback -> Takes awhile in browser (not a good experience) -> browser wants to render (every 65 milliseconds)
 
-
 ```js
 //Block Code:
 console.log(1)
@@ -35,5 +34,112 @@ console.log(3)
 - Handles asynchronous function calls by:
 - placing callback functions on the callback queue when they are ready to be executed 
 - place callback functions form the queue onto the call stack when its empty
+
+**Promises - Introduction:**
+
+- A JS object
+- Available methods -> .then, .catch, .finally
+- A status- or state- that is immutable
+- A value that depends on the status
+
+```js
+function squareNumber(number) {
+    return new Promise((resolve, reject) => {
+        if (typeof number !== 'number') {
+            reject(new Error("Input must be a number"))
+        }
+        resolve(number * number)
+    })
+}
+let squaredNumber = squareNumber(10)
+squaredNumber
+    .then(number => console.log(number))
+    .catch(error => console.log("Error " + error.message))
+    // .then(squaredNumber => console.log("The squared number is " + squaredNumber))
+    // .catch(error => console.error(error.message))
+    // .finally(() => console.log("The promise has finished"))
+console.log(squaredNumber)
+```
+
+**Promises - Promise Chaining:**
+
+- Then method or onResolve -> takes a callback function, always returns a Promise, can bed chained forever
+- Catch method or OnReject -> takes a callback function, will handle any rejected promise in the chain, will also handle any thrown error in the chain
+
+```js
+function generateRandomNumber(limit) {
+    console.log("Generating number between 1-" + limit)
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (typeof limit !== 'number') {
+                reject(new Error("Input must be a number"))
+            }
+            const randomNumber = Math.floor(Math.random() * limit) + 1
+            resolve(randomNumber)
+        }, 1000)
+    })
+}
+
+function doubleNumber(num) {
+    return new Promise((resolve, reject) => {
+        if (num < 0) {
+            reject(new Error("Can't double negative number with simple math!"))
+        }
+        resolve(num * 2)
+    })
+}
+
+function logIfSmall(number) {
+    if (number > 15) {
+        throw new Error("That number is too big")
+    } else
+        console.log("The doubled number " + number)
+}
+
+generateRandomNumber(10)
+    .then(number => {
+        console.log("The Number is " + number)
+        return number
+    })
+    .then(doubleNumber)
+    .then(logIfSmall)
+    .catch(error => console.log("Caught Error: " + error.message))
+```
+
+**Promises - Refactoring Callback Hell:**
+
+- A series of nested callbacks
+- Nested functions rely on prior function being finished
+- Pyramid of Doom
+
+```js
+function getJoke() {
+    return new Promise((resolve, reject) => {
+        $getJson("https://icanhazdadjoke.com/", (response) => {
+            if (response) {
+                resolve(response.joke)
+            }
+            reject(new Error("Failed to get Joke"))
+        })
+    })
+}
+
+document.getElementById("button").addEventListener("click", () => {
+    let promiseArray = []
+    for (let i = 0; i < 5; i++) {
+        promiseArray.push(getJoke())
+    }
+    Promise.all(promiseArray)
+        .then(jokeArray => console.log(jokeArray))
+        .catch(error => console.error("Error caught: " + error.message))
+})
+```
+
+**Async/Await:**
+
+**AJAX and Fetch API:**
+
+
+
 
 
