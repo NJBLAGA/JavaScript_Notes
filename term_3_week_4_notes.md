@@ -27,7 +27,7 @@ console.log(3)
 - How JS keeps track of the execution order of its code
 - LIFO (Last in, First Out)
 
-**JS Event Loop:**
+**JS Callback queue /Task queue:**
 - How JS processes responses from async functions
 - FIFO (First In, First Out)
 
