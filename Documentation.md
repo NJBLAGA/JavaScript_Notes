@@ -35,3 +35,6 @@
 
 
 **Week 3:**
+- **Event Loops - MDN Docs:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop]
+- **Practical DEV - Call Stack:** [https://dev.to/ogwurujohnson/demystifying-the-javascript-call-stack-1ppc]
+
