@@ -137,7 +137,80 @@ document.getElementById("button").addEventListener("click", () => {
 
 **Async/Await:**
 
+- Async functions are instances of the AsyncFUnction constructor, and the await keyword is permitted within them.
+- The async and await keywords enable asynchronous promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
+- REturn a Promise that either:
+- Resolves to the value explicitly returned form the function
+- Rejects with an error thrown from the function
+
+```js
+async function asyncGreeter(name) {
+    if (!name) {
+        throw "Name cannot be null."
+    }
+    return `Hello ${name}`
+}
+
+function promiseGreeter(name) {
+    return new Promise((resolve, reject) => {
+        if (!name) {
+            reject("Name cannot be null")
+        }
+        resolve(`Hello ${name}`)
+    })
+}
+```
+- Async functions are used ot enable the use of await
+```js
+async function processData(source) {
+    get data = await getDataAsync(source)
+    return shapeData(data)
+}
+```
+- The await expression can only be used in an async function
+- It causes async function execution to pause until a Promise is settled
+- It forces synchronous code execution in the context of the async function
+
 **AJAX and Fetch API:**
+
+**WEB API**
+- Are one of the most popular tools to access data in web development
+- We send a request to a URL (with AJAX) and the sever sends us the required data (usually JSON) back
+- We will build our own servers with our own data soon, but in the meantime, we can access a third-party web API
+
+**AJAX:**
+- Asynchronous Javascript And XML
+- Allows reloading only specific elements of the page instead of the entire page
+- Applied to create, dynamic and modern websites
+- Not dependent on what browser it's running on
+- Can send and receive information in various formats like JSON, XML, HTML and text files
+
+**Using AJAX with jQuery:**
+- jQuery is a popular JS library (less popular now because of frameworks like React, Vue and Angular.)
+- jQuery is supported on browsers
+- Can be downloaded or used with jQuery CDN
+- jQuery provides us a cleaner syntax and  a straightforward implementation
+- Same as most modern AJAX libraries, jQuery's AJAX is built on top of XHR requests
+- They are just there to abstract away the complexity
+
+**Fetch API:**
+- The fetch API is just another way to do the same thing that we can do with XHR
+- It uses Promises instead of callbacks which has made it very popular and can easier to use
+- Fetch is the standard for AJAX in modern browsers
+
+```js
+let pokeFetch = fetch(pokemonUrl)
+    .then((response) => response.json()) //returns a promise
+    .then((data) => {console.log(data)}) //handles the data and runs a function
+    .catch((error) => {console.log("error: " + error)}) //hands the errors
+```
+
+
+
+
+
+
+
 
 
 
