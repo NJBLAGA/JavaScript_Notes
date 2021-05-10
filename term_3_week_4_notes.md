@@ -1,4 +1,4 @@
-# **Term 3 - Week 3 - Notes - Nathan Blaga**
+s
 
 **Asynchronous JS Introduction:**
 

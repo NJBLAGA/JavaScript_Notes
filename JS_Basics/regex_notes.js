@@ -120,7 +120,6 @@ console.log(result18)
 2. Letters can be lowercase and uppercase.
 3. At least two characters long. Two-letter names can't have numbers.
 */
-
 let username = "JackOfAllTrades"
 let userCheck = /^[A-Za-z]{2,}\d*$/ //{} =>indicate number of times pervious things can match, can match between 2 and infinite times. {min,max}
 let answer = userCheck.test(username)
@@ -220,7 +219,6 @@ let replace = "Code Camp".replace(/(\w+)\s(\w+)/, '$2 $1') //$2 = second capture
 console.log(replace)
 
 //Coding Challenge
-
 let hello = "  Hello, World!  "
 let wsRegex = /^\s+|\s+$/g
 let resultsC = hello.replace(wsRegex, '')
