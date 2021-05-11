@@ -34,3 +34,11 @@
 - **Event Loops - MDN Docs:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop]
 - **Practical DEV - Call Stack:** [https://dev.to/ogwurujohnson/demystifying-the-javascript-call-stack-1ppc]
 
+**Week 5:**
+- **Understanding JavaScript Constructors:** [https://css-tricks.com/understanding-javascript-constructors/]
+- **Inheritance and the prototype chain - MDN Docs:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain]
+- **Event Loops - MDN Docs:** []
+
+**Week 6:**
+- **Event Loops - MDN Docs:** []
+
