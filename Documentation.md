@@ -40,5 +40,4 @@
 - **Event Loops - MDN Docs:** []
 
 **Week 6:**
-- **Event Loops - MDN Docs:** []
-
+- **Dependabot:** [https://docs.github.com/en/code-security/supply-chain-security/configuring-dependabot-security-updates]

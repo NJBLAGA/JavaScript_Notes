@@ -1,5 +1,7 @@
 # **Term 3 - Week 6 - Notes - Nathan Blaga**
 
+- NPM- [https://www.npmjs.com/signup]
+
 **React:**
 - react library -> react components
 - reactDOM library -> renders content to the browser
