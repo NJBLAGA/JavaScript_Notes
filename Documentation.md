@@ -41,3 +41,5 @@
 
 **Week 6:**
 - **Dependabot:** [https://docs.github.com/en/code-security/supply-chain-security/configuring-dependabot-security-updates]
+- **React CDN Links - Script Tag Imports :** [https://reactjs.org/docs/cdn-links.html]
+- **React Without JSX:** [https://reactjs.org/docs/react-without-jsx.html]

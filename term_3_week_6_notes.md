@@ -94,12 +94,17 @@ yarn upgrade [package]@[tag]
 - and more
 
 **You specify a custom template when you call create-react-app:**
+
 ```js
 npx create-react-app my-app --template [template-name] 
 ```
+
 **There are many custom templates already created that you can use. You can find templates created and published by others by searching for "cra-template-*" on npm.**
+
 [https://www.npmjs.com/search?q=cra-template-*]
+
 **Try creating a React project with a template you find on npm. If you have trouble finding one, try this one:**
+
 ```js
 npx create-react-app basic-sass-app --template cra-template-basic-sass
 ```
@@ -108,10 +113,11 @@ npx create-react-app basic-sass-app --template cra-template-basic-sass
 Learn more about creating your own custom templates in the Create React App documentation here:
 [https://create-react-app.dev/docs/custom-templates/]
 You can create your own templates with react-scripts 3.3.0 and higher.
-If you are keen, try creating your own template following the instructions in the Create React App documentation. 
-After you test it locally, you will have to have an npm account, to make it available publicly. 
+If you are keen, try creating your own template following the instructions in the Create React App documentation
+After you test it locally, you will have to have an npm account, to make it available publicly
 [https://www.npmjs.com/signup]
 Once you do, from your template directory, you can run the following to publish your template:
+
 ```js
 npm login
 npm publish
@@ -123,18 +129,57 @@ npm publish
 [https://styled-components.com/]
 
 ```js
-yarn add styled-components
-```
-```js
+yarn add styled-components //add to react project
+//EXAMPLE 1
+// create new folder styled -> create new file 
+Heading.js
+//add the following
 import styled from 'styled-components'
 //style regular html component
-const Heading = styled.hs`
-color: blue
+const Heading = styled.h2`
+color: blue;
 `
 export default Heading
+// in file with html, add the following:
+import Heading from './styled/Heading'
+// replace h2 tag with:
+<{Heading}>{title}</Heading>
+
+//EXAMPLE 2
+const linkstyles = {
+  fontSize: '1.2rem',
+  textDecoration: 'none',
+  color: 'black',
+  margin: '0.5em
+}
+//  -> create new file Link.js
+import styled form 'styled-components'
+import {Link} from 'react-router-dom'
+
+//add the following:
+const PlainLink = styled(Link)`
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+  margin: 0.5em;
+`
+export default Plainlink
+
+//import ->
+import PlainLink from '//styled/PlainLink'
+//change links to
+<PlainLink></PlainLink>
+
+//EXAMPLE 3
+//give props:
+<Heading color="green"></Heading>
+const Heading = styled.h2`
+color: ${(props) => props.color || "black"}
+`
 ```
 
 **Class Demo:**
+
 ```js
 npx create-react-app cra-demo //create project
 yarn start //start server
