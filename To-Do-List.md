@@ -1,26 +1,17 @@
 # **TO-DO-LIST:**
 
-**Friday:**
-
-- Virtual DOM VS Real DOM
-- React Docs -> Thinking in React
-- declarative vs imperative
-
-**Saturday:**
-
-- Friday ARVO CLASS -> [2 hours]
-- Conditional Rendering -> [40 mins]
-- Class Components, State, Lifecycle -> [40 mins]
-
 **Sunday:**
 
-- VS Code Shortcuts
-- Emmet CheatSheet
+- Conditional Rendering -> [40 mins]
+- Class Components, State, Lifecycle -> [40 mins]
+- declarative vs imperative
 
 **Monday:**
 
 - Week 6 GitHub Challenge
 - Week 7 GitHub Challenge x 2
+- VS Code Shortcuts
+- Emmet CheatSheet
 
 **Tuesday:**
 
