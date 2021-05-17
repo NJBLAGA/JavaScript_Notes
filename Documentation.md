@@ -43,3 +43,8 @@
 - **Dependabot:** [https://docs.github.com/en/code-security/supply-chain-security/configuring-dependabot-security-updates]
 - **React CDN Links - Script Tag Imports :** [https://reactjs.org/docs/cdn-links.html]
 - **React Without JSX:** [https://reactjs.org/docs/react-without-jsx.html]
+
+**Week 6:**
+- **React Docs - Rendering Elements:** [https://reactjs.org/docs/rendering-elements.html]
+- **React Docs - State and Lifecycle:** [https://reactjs.org/docs/state-and-lifecycle.html]
+- **React Life Cycle Diagram:** [https://edstem.org/courses/4965/lessons/8041/slides/58156]

@@ -1,7 +1,5 @@
 # **Term 3 - Week 7 - Notes - Nathan Blaga**
 
-**Conditional Rendering:**
-
 **Declarative vs Imperative Programming:**
 
 **Declarative programming:** 
@@ -50,3 +48,21 @@ btn.onclick = function(event) {
 container.appendChild(btn);
 ```
 
+**Component Lifecycle:**
+
+- Component lifecycle from the time a component is mounted to when it is unmounted
+- It is divided into various lifecycle methods
+
+1. ComponentDidMount: Which runs after the first render
+
+- Best place to make API calls
+
+1. ComponentDidUpdate : This runs after subsequent rendering
+
+- Does not occur on the first render
+- Occurs only when prevState is different to the newState
+- If there is any repetitive tasks this would be the best place (setInterval)
+
+1. ComponentWillUnmount : Runs towards the end of the component lifecycle
+
+- Clear any background task running for this component (clearInterval)
