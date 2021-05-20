@@ -1,6 +1,8 @@
 
 ## **Additional Resources:**
+
 **Week 1:**
+
 - **Arrays:** [https://medium.com/swlh/array-prototypal-inheritance-aa25de1fd678]
 - **Array Methods:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array]
 - **Prototype:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain]
@@ -14,6 +16,7 @@
 - **JS TypeOf Method:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null]
 
 **Week 2:**
+
 - **Node REPL for Javascript:** [https://nodejs.org/en/knowledge/REPL/how-to-use-nodejs-repl/]
 - **Node.js v15.14.0 Documentation:** [https://nodejs.org/api/fs.html#fs_file_sy]
 - **Throw Statement:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw]
@@ -23,6 +26,7 @@
 - **Development Test Staging Production:** [https://janelbrandon.medium.com/understanding-environments-c16e4c703e4e]
 
 **Week 3:**
+
 - **Eloquent Javascript:** [https://eloquentjavascript.net/]
 - **Morning Challenge:** [https://edstem.org/courses/4966/lessons/10539/slides/76677] [https://edstem.org/courses/4966/lessons/10540/slides/76679]
 - **Dice Challenge -Andrew:** [https://github.com/Andrew-CC-Martin/dice-game]
@@ -31,21 +35,34 @@
 - **JS innerHTML, innerText and textContent:** [https://dev.to/4myc/javascript-innerhtml-innertext-and-textcontent-ih]
 
 **Week 4:**
+
 - **Event Loops - MDN Docs:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop]
 - **Practical DEV - Call Stack:** [https://dev.to/ogwurujohnson/demystifying-the-javascript-call-stack-1ppc]
 
 **Week 5:**
+
 - **Understanding JavaScript Constructors:** [https://css-tricks.com/understanding-javascript-constructors/]
 - **Inheritance and the prototype chain - MDN Docs:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain]
 - **Event Loops - MDN Docs:** []
 
 **Week 6:**
+
 - **Dependabot:** [https://docs.github.com/en/code-security/supply-chain-security/configuring-dependabot-security-updates]
 - **React CDN Links - Script Tag Imports :** [https://reactjs.org/docs/cdn-links.html]
 - **React Without JSX:** [https://reactjs.org/docs/react-without-jsx.html]
 
 **Week 6:**
+
 - **React Docs - Rendering Elements:** [https://reactjs.org/docs/rendering-elements.html]
 - **React Docs - State and Lifecycle:** [https://reactjs.org/docs/state-and-lifecycle.html]
 - **React Life Cycle Diagram:** [https://edstem.org/courses/4965/lessons/8041/slides/58156]
 - **React - Components:** [https://reactjs.org/docs/react-component.html]
+
+**Week 7:**
+
+- **API GiHub List:** [https://github.com/public-apis/public-apis]
+- **Popmotion:** [https://popmotion.io/]
+- **Framer:** [https://www.framer.com/motion/]
+- **GitHUb License:** [https://choosealicense.com/]
+
+**Week 8:**
