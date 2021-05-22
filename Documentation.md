@@ -64,5 +64,13 @@
 - **Popmotion:** [https://popmotion.io/]
 - **Framer:** [https://www.framer.com/motion/]
 - **GitHUb License:** [https://choosealicense.com/]
+- **React Profiler:**[https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html]
 
 **Week 8:**
+
+- **React Controlled Components:** [https://reactjs.org/docs/forms.html#controlled-components]
+- **https://reactjs.org/docs/forms.html#controlled-components:** [https://www.pluralsight.com/guides/handling-multiple-inputs-with-single-onchange-handler-react]
+- **Fetch Data from a JSON File in a React App:** [https://www.pluralsight.com/guides/fetch-data-from-a-json-file-in-a-react-app]
+- **Redux Fundamentals, Part 3: State, Actions, and Reducers:** [https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers]
+- **Recursion:** [https://www.programiz.com/javascript/recursion]
+- **Destructing:** [https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/]
