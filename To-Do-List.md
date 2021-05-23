@@ -2,16 +2,14 @@
 
 **Sunday:**
 
-- MORNING
-- Go over Internship Assessment (Take Notes => LOOK AT PRESENTATION NOTES/Q&A)
-- Go for free stuff on Student Pack
-- EVENING
 - VS CODE [3 Hours 35 Mins]
 
 **Monday:**
 
 - Git In-depth [3 Hours 27 Mins]
 - Intro to Dev Tools [3 Hours 22 Mins]
+- Go over Internship Assessment (Take Notes => LOOK AT PRESENTATION NOTES/Q&A)
+- Go for free stuff on Student Pack
 
 **Tuesday:**
 
@@ -28,9 +26,10 @@
 
 - Functional-Light JavaScript, v3 [10 Hours]
 
-**Sunday:**
+**Friday/Saturday/Sunday:**
 
 - Functional-Light JavaScript, v3 [10 Hours]
+- Week 9 Content
 
 **Monday:**
 
