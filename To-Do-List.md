@@ -1,15 +1,11 @@
 # **TO-DO-LIST:**
 
-**Sunday:**
-
-- VS CODE [3 Hours 35 Mins]
-
 **Monday:**
 
+- VS CODE [1 Hour 35 Mins]
 - Git In-depth [3 Hours 27 Mins]
 - Intro to Dev Tools [3 Hours 22 Mins]
 - Go over Internship Assessment (Take Notes => LOOK AT PRESENTATION NOTES/Q&A)
-- Go for free stuff on Student Pack
 
 **Tuesday:**
 
@@ -34,6 +30,7 @@
 **Monday:**
 
 - JS RECENT PARTS [4 Hours 9 Mins]
+- Go for free stuff on Student Pack
 
 **Tuesday:**
 
