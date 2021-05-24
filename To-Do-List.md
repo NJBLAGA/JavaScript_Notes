@@ -1,22 +1,18 @@
 # **TO-DO-LIST:**
 
-**Monday:**
-
-- VS CODE [1 Hour 35 Mins]
-- Git In-depth [3 Hours 27 Mins]
-- Intro to Dev Tools [3 Hours 22 Mins]
-- Go over Internship Assessment (Take Notes => LOOK AT PRESENTATION NOTES/Q&A)
-
 **Tuesday:**
 
+- Go over Internship Assessment (Take Notes => LOOK AT PRESENTATION NOTES/Q&A)
 - Into To Linux [6 Hours 48 Mins]
 - Getting Started With JS V2 [2 Hours 36 Mins]
-- Read Forms && Hooks Tut Sheets (Revisit && Review)
+
 
 **Wednesday:**
 
 - CSS / Grid / Flexbox [5 Hours 38 Mins]
 - Advanced CSS Layouts [3 Hours 46 Mins]
+- **JavaScript Start-Up Performance:** [https://medium.com/reloading/javascript-start-up-performance-69200f43b201]
+- Read Forms && Hooks Tut Sheets (Revisit && Review)
 
 **Thursday:**
 
