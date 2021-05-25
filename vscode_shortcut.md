@@ -39,3 +39,14 @@
 - ```shift + w``` => emmet wrap
 - ```shift + i``` => update image size
 - ```control + shift + l``` => highlights all words that match
+
+**Terminal Shortcut:**
+
+- ```CTRL + A``` => takes you to the beginning of the line
+- ```CTRL + E``` => takes you to the end of the line
+- ```CTRL + K``` => "yank" everything after the cursor
+- ```CTRL + U``` => "yank" everything before the cursor
+- ```CTRL + Y``` => "paste" (paste in quotes) 
+- ```CTRL + L``` => clear the screen
+- ```CTRL + R``` => reverse search through history
+- ```kill -l``` => Sigkill

@@ -2,9 +2,7 @@
 
 **Tuesday:**
 
-- Into To Linux [6 Hours 48 Mins]
 - Getting Started With JS V2 [2 Hours 36 Mins]
-- **JavaScript Start-Up Performance:** [https://medium.com/reloading/javascript-start-up-performance-69200f43b201]
 - Go over Internship Assessment (Take Notes => LOOK AT PRESENTATION NOTES/Q&A)
 
 **Wednesday:**
@@ -12,6 +10,7 @@
 - CSS / Grid / Flexbox [5 Hours 38 Mins]
 - Advanced CSS Layouts [3 Hours 46 Mins]
 - Read Forms && Hooks Tut Sheets (Revisit && Review)
+- Go over Internship Assessment (Take Notes => LOOK AT PRESENTATION NOTES/Q&A)
 
 **Thursday:**
 
