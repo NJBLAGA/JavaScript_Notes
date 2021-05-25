@@ -1,21 +1,17 @@
 # **Notes:**
 
-**HIVE LINK:** [https://ait.instructure.com/courses/3015]
+- LOOK AT THE SHARED NOTES IN PRESENTATION && => **HIVE LINK:** [https://ait.instructure.com/courses/3015]
 
-- Interviewing for For-End Engineers [2 Hours 53 Mins]
+**Assessment:** => [https://ait.instructure.com/courses/3030/assignments/26745]
 
-- Interview Questions: [Event Delegation]
+**Resume Templates:** => [https://www.canva.com/resumes/templates/]
 
-**Assessment:**
-
-- About me form
-- Applications ready cv
+**About Me Survey Link:** => [https://docs.google.com/forms/d/e/1FAIpQLSfMgztaviifdaGKzzg35ilTn4QZM7lwK61FuUIiQ3k-0kCi-A/viewform]
 
 **UPDATE:**
-- linkedin -> about me, info
-- CV
-- Github repo - Names of repos / contacts /freq => PIN MAJOR ONE
-- UPLOAD anything important
-- Start looking for jobs
 
-                                                LOOK AT THE SHARED NOTES IN PRESENTATION
+- Linkedin -> about me, info
+- Twitter => About Me
+- Github repo - Names of repos / contacts /freq => PIN MAJOR ONE
+- UPLOAD TERM 2 WORKBOOKS
+
