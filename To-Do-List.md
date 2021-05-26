@@ -27,17 +27,12 @@
 - CSS / Grid / Flexbox [5 Hours 38 Mins]
   [https://frontendmasters.com/courses/css-grids-flexbox/]
 
-**Wednesday:**
-
-- Go over Internship Assessment => Start Making Notes
-
 **Thursday:**
 
-- Go over Internship Assessment => Start Making Notes
-
-**Friday:**
-
-- Go over Internship Assessment => Start Making Notes
+- Reword => Work Experience
+- Reword => Education History
+- Reword => Coding Projects
+- Github repo - Fix Names/Rename of CA Projects / contacts /freq => PIN MAJOR REPOS
 
 **Saturday:**
 
@@ -45,7 +40,10 @@
 
 **Sunday:**
 
-- CV
+- CV => Personal => Image => Edit
+- GitHub => About Me
+- Twitter => About Me
+- LinkedIn => About Me
 - About Me Sheet
 
 **Monday:**
@@ -57,7 +55,3 @@
 
 - Intermediate React V3 [6 Hours 7 Mins]
   [https://frontendmasters.com/courses/intermediate-react-v3/]
-
-**Wednesday:**
-
-- Portfolio
