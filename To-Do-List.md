@@ -1,45 +1,57 @@
 # **TO-DO-LIST:**
 
-**Tuesday:**
+## **Holidays:**
 
-- Into To Linux [6 Hours 48 Mins]
-- Getting Started With JS V2 [2 Hours 36 Mins]
-- **JavaScript Start-Up Performance:** [https://medium.com/reloading/javascript-start-up-performance-69200f43b201]
-- Go over Internship Assessment (Take Notes => LOOK AT PRESENTATION NOTES/Q&A)
+- Go for free stuff on Student Pack
 
-**Wednesday:**
+## **READ:**
 
-- CSS / Grid / Flexbox [5 Hours 38 Mins]
+- You Don't Know JS => [https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures]
+
+## **WATCH During Break:**
+
+- React Native V2 [4 Hours 4 Mins]
+  [https://frontendmasters.com/courses/react-native-v2/]
+- Testing React Applications, v2 [4 Hours 11 Mins]
+  [https://frontendmasters.com/courses/testing-react/]
+- JavaScript: From Fundamentals to Functional JS, v2 [8 Hours 11 Mins]
+  [https://frontendmasters.com/courses/js-fundamentals-functional-v2/]
+- Deep JavaScript Foundations, v3 [10 Hours 32 Mins]
+  [https://frontendmasters.com/courses/deep-javascript-v3/]
+- JavaScript: The Hard Parts, v2 [6 Hours 41 Mins]
+  [https://frontendmasters.com/courses/javascript-hard-parts-v2/]
+- JS Recent Parts [4 Hours 9 Mins]
+  [https://frontendmasters.com/courses/js-recent-parts/]
 - Advanced CSS Layouts [3 Hours 46 Mins]
-- Read Forms && Hooks Tut Sheets (Revisit && Review)
+  [https://frontendmasters.com/courses/advanced-css-layouts/]
+- CSS / Grid / Flexbox [5 Hours 38 Mins]
+  [https://frontendmasters.com/courses/css-grids-flexbox/]
 
 **Thursday:**
 
-- Functional-Light JavaScript, v3 [10 Hours]
+- Reword => Work Experience
+- Reword => Education History
+- Reword => Coding Projects
+- Github repo - Fix Names/Rename of CA Projects / contacts /freq => PIN MAJOR REPOS
 
-**Friday/Saturday/Sunday:**
+**Saturday:**
 
-- Functional-Light JavaScript, v3 [10 Hours]
 - Week 9 Content
+
+**Sunday:**
+
+- CV => Personal => Image => Edit
+- GitHub => About Me
+- Twitter => About Me
+- LinkedIn => About Me
+- About Me Sheet
 
 **Monday:**
 
-- JS RECENT PARTS [4 Hours 9 Mins]
-- Go for free stuff on Student Pack
+- Intro To React V6 [5 Hours 41 Mins]
+  [https://frontendmasters.com/courses/complete-react-v6/]
 
 **Tuesday:**
 
-- Deep JavaScript Foundations, v3 [10 Hours 32 Mins]
-
-**Wednesday:**
-
-- Intro To React V6 [5 Hours 41 Mins]
-
-**Weekend:**
-
 - Intermediate React V3 [6 Hours 7 Mins]
-- React Native V2 [4 Hours 4 Mins]
-
-**1 WEEK:**
-
-- Portfolio
+  [https://frontendmasters.com/courses/intermediate-react-v3/]
