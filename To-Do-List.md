@@ -32,6 +32,8 @@
 - Reword => Work Experience
 - Reword => Education History
 - Reword => Coding Projects
+- Buy domain name
+- Update Old Profile
 - Github repo - Fix Names/Rename of CA Projects / contacts /freq => PIN MAJOR REPOS
 
 **Saturday:**
