@@ -27,22 +27,14 @@
 - CSS / Grid / Flexbox [5 Hours 38 Mins]
   [https://frontendmasters.com/courses/css-grids-flexbox/]
 
-**Thursday:**
-
-- Reword => Work Experience
-- Reword => Education History
-- Reword => Coding Projects
-- Buy domain name
-- Update Old Profile
-- Github repo - Fix Names/Rename of CA Projects / contacts /freq => PIN MAJOR REPOS
-
 **Saturday:**
 
 - Week 9 Content
 
 **Sunday:**
 
-- CV => Personal => Image => Edit
+- CV => Image => Information => Template
+- Portfolio => Update Skills && Icons
 - GitHub => About Me
 - Twitter => About Me
 - LinkedIn => About Me
@@ -57,3 +49,7 @@
 
 - Intermediate React V3 [6 Hours 7 Mins]
   [https://frontendmasters.com/courses/intermediate-react-v3/]
+
+**************************************************************************************IMPORTANT***************************
+  - Start adding people on GitHub
+  -Ask about better icons for portfolio

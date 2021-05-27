@@ -28,8 +28,6 @@
 
 - Linkedin -> about me, info
 - Twitter => About Me
-- Github repo - Names of repos / contacts /freq => PIN MAJOR ONE
-- UPLOAD TERM 2 WORKBOOKS
 
 ## **Resume:**
 
@@ -37,10 +35,10 @@
 
 ### **Contact Information:** => Top
 
-**GitHub:** [https://github.com/NJBLAGA]
-**LinkedIn:** [https://www.linkedin.com/in/nathan-blaga-aa823b172/]
-**Twitter:** [https://twitter.com/BlagaNathan]
-**Portfolio:** [UPDATE]
+**GitHub:** => NJBLAGA
+**LinkedIn:** => Nathan Blaga
+**Twitter:** @BlagaNathan
+**Portfolio:** nathanblaga.me
 **Email:** nathanblaga90@gmail.com
 **Phone:** 0436190824
 
@@ -56,28 +54,6 @@
 => career changer => let them know and share your story
 - Briefly mention your goals and motivations to get into development
 => what sets you apart, and what has inspired you to career pivot?
-
-### **Skills:**
-
-**Tech Skills:** => => => List all Tech skills within stack.
-
-- Linux terminal
-- Source Control =Git/GitHub
-- HTML 5
-- CSS
-- Bootstrap
-- Tailwind CCS
-- Ruby
-- Ruby on Rails
-- PostgreSQL
-- Heroku
-- Netlify
-- JavaScript
-- React
-- TTD
-- MFD
-- VS Code
-- Trello
 
 ### **Projects:**
 
@@ -98,7 +74,27 @@
 
 **Tech Skills:**
 
+- HTML 5
+- CSS
+- JavaScript
+- React
+- node.js
+- Ruby
+- Ruby on Rails
+- PostgreSQL
+
 **Tools:**
+
+- Linux terminal
+- Source Control =Git/GitHub
+- Bootstrap
+- Tailwind CCS
+- Heroku
+- Netlify
+- TTD
+- MFD
+- VS Code
+- Trello
 
 **Core Skills:**
 
