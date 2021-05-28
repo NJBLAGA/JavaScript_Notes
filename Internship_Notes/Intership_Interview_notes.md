@@ -62,7 +62,7 @@
 - Portfolio
 - Ruby Terminal App
 - Rails 2-sided marketplace
-- Hackathon
+- Hackathon1
 
 - Name of the project
 => Languages and tools used
@@ -74,39 +74,41 @@
 
 **Tech Skills:**
 
+- Linux terminal/command-line
 - HTML 5
-- CSS
+- CSS 3
+- Bootstrap
+- Tailwind CCS
 - JavaScript
 - React
-- node.js
+- Node.js
 - Ruby
 - Ruby on Rails
 - PostgreSQL
+- Git
 
 **Tools:**
 
-- Linux terminal
-- Source Control =Git/GitHub
-- Bootstrap
-- Tailwind CCS
+- GitHub
 - Heroku
 - Netlify
-- TTD
-- MFD
 - VS Code
 - Trello
 
-**Core Skills:**
+**Core Skills:** 
+
+- TTD
+- MFD
 
 ### **Work Experience:**
 
-- Company Name
+- Company Name [BLG] [WoolWorths]
 - Your Role At Company
 - Date (month and year) you held the role at Company
 
 ### **Education History:**
 
-- Name of qualification
+- Name of qualification [UOW-Commerce-Accounting/Finance] [NIDA]
 - Institution Name
 - Start date and completion date of qualification
 

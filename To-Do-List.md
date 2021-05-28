@@ -39,6 +39,7 @@
 - Twitter => About Me
 - LinkedIn => About Me
 - About Me Sheet
+- GitHub => update mini projects
 
 **Monday:**
 
@@ -50,6 +51,7 @@
 - Intermediate React V3 [6 Hours 7 Mins]
   [https://frontendmasters.com/courses/intermediate-react-v3/]
 
-**************************************************************************************IMPORTANT***************************
-  - Start adding people on GitHub
-  -Ask about better icons for portfolio
+**Important:**
+
+- Start adding people on GitHub
+  
