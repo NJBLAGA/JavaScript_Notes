@@ -3,6 +3,38 @@
 ## **Holidays:**
 
 - Go for free stuff on Student Pack
+**Term 3 Revision:**
+
+- Week 2
+=> Js Exception Handling
+=> Introduction to Node & NPM
+=> Unit Testing with Jest
+
+- Week 3
+=> Callback Functions
+
+- Week 4
+=> Async/Await
+
+- Week 5
+=> Prototypes
+=> Classes
+
+- Week 6
+=> React
+=> JSX
+
+- Week 7
+=> Conditional Rendering
+=> Class Components, State, Lifecycle
+
+- Week 8
+=> React Forms
+=> React Hooks
+
+- Week 9
+=> State Reducer
+=> React Router
 
 ## **READ:**
 
@@ -27,19 +59,14 @@
 - CSS / Grid / Flexbox [5 Hours 38 Mins]
   [https://frontendmasters.com/courses/css-grids-flexbox/]
 
-**Saturday:**
-
-- Week 9 Content
-
 **Sunday:**
 
 - CV => Image => Information => Template
-- Portfolio => Update Skills && Icons
+- About Me Sheet - GitHub => update mini projects
 - GitHub => About Me
 - Twitter => About Me
 - LinkedIn => About Me
-- About Me Sheet
-- GitHub => update mini projects
+- Week 9 Content
 
 **Monday:**
 
@@ -50,8 +77,3 @@
 
 - Intermediate React V3 [6 Hours 7 Mins]
   [https://frontendmasters.com/courses/intermediate-react-v3/]
-
-**Important:**
-
-- Start adding people on GitHub
-  

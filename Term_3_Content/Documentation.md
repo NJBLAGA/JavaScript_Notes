@@ -74,3 +74,7 @@
 - **Redux Fundamentals, Part 3: State, Actions, and Reducers:** [https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers]
 - **Recursion:** [https://www.programiz.com/javascript/recursion]
 - **Destructing:** [https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/]
+
+**Week 9:**
+
+- **Reducers:** [https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers]
