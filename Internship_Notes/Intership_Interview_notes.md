@@ -48,13 +48,13 @@
 **Short personal statement:** => => => really clear who you are and and what you’re looking for => => => Make this **unique** , to the point and honest.
 
 - What you are currently doing now
-=> studying to become full stack developer at coder academy
+=> Set on developing my skills as a front-end developer within the tech industry, I am currently undertaking the Flex Track Bootcamp at Coder Academy Sydney.
 - What are you learning at Coder Academy
-=> what languages and tools you have learnt
+=> Whilst at Coder Academy, I have been exposed to various technologies, frameworks, tools and methodologies. These include but are not limited too; git and source control, HTML, CSS, JavaScript, React, Ruby on Rails, Test Driven Development, Mobile First Design, agile development practices and working with relational databases.
 - What were you doing previously
-=> career changer => let them know and share your story
+=> I have worked extensively in the Australian retail industry for over 12 years allowing myself to develop and refine my communication and problem-solving skills. After completing a Bachelor of Commerce Degree, I worked within the Australian Accounting and Finance sector.
 - Briefly mention your goals and motivations to get into development
-=> what sets you apart, and what has inspired you to career pivot?
+=> In 2020, I decided to pursue the tech industry to further develop my problem solving skills and express my creativity. Most importantly I wish to build and design applications, with the intentions to help people and make life easier for society.
 
 ### **Projects:**
 
@@ -66,29 +66,61 @@
 => Key Challenges /achievements you experienced
 => This demonstrates your willingness ot overcome challenges and ways in which you overcome
 
-**Hackathon:**
+**Hackathon - Get Lucky 3000:**
 
-- Tech Stack => HTML / CSS / JavaScript
+- Tech Stack:
+
+ => HTML / CSS / JavaScript
+
 - Description:
+
+Through the Coder Academy bootcamp, I was able to participate in my first hackathon. Within a timeframe of 36 hours, teams had to develop a web application utilising any API of their choice. Get Lucky 3000 is a web application that creates a dating profile based on the information provided by the user. The app constructs the user's dream dating profile by utilising the following APIs: Affirmations, Corporate BS Generator, Dad Jokes and the Dog API.
+
 - Challenges:
 
-**Rails 2-sided marketplace:**
+The primary challenge of this project was designing and developing the application within a short timeframe. This was achieved by utilising each members strengths to not only maximise the teams efficiency but develop a product that met user expectations and requirements.
 
-- Tech Stack => Ruby on Rails / PostreSQL / HTML / Bootstrap Framework / Heroku / Cloudinary / Trello
+**Workout Jungle:**
+
+- Tech Stack:
+
+ => Ruby on Rails / PostreSQL / HTML / Bootstrap Framework / Heroku / Cloudinary / Trello / Balsamiq
+
 - Description:
+
+Workout Jungle is a two-sided marketplace in which Australian consumers can buy and sell new and used fitness equipment. Workout Jungle was my first full-stack application as it utilised a variety of languages, frameworks, third-party services and a relational database.
+
 - Challenges:
 
-**Ruby Terminal App:**
+Workout Jungle allowed me to experience the development of a full-stack application through an agile based development process. This forced me to construct the web application and its features within various sprints. The project was deployed continuously on Heroku which challenged me to refine my knowledge and skills with Git branching, while working with development and production pipelines. Workout Jungle allowed me to build a  relational database for the applications users and listings, which was an amazing experience while challenging at the same time.
 
-- Tech Stack => Ruby / Trello
+**Zop Ruby Quiz Game:**
+
+- Tech Stack:
+
+=> Ruby / Trello / Balsamiq
+
 - Description:
+
+ Zop is a terminal based quiz game build completely with Ruby. Zop will prompt a player with a serious of random questions ranging in difficulty, while tracking their current score and attempts remaining.
+
 - Challenges:
+
+This project challenged me to focus on test driven development and error handling as a developer. It also allowed me to refine writing more DRY and clean code, within a logic based program and construct detailed documentation alongside it.
 
 **Portfolio:**
 
-- Tech Stack => HTML / CSS / JavaScript / Trello
+- Tech Stack:
+
+ => HTML / CSS / JavaScript / Trello / Balsamiq
+
 - Description:
+
+My first project at Coder Academy allowed me to demonstrate my skills as a developer alongside utilising my knowledge and the technologies at my disposal in designing and creating a portfolio.
+
 - Challenges:
+
+As a developer, I was challenged to focus heavily on mobile first design while creating a website that was engaging, assessable and secure.
 
 ### **Think about what will make you stand out from the rest of your cohort, and other junior developers looking for roles.**
 
@@ -114,7 +146,7 @@
 - Netlify
 - VS Code
 - Trello
-- Figma
+- Balsamiq
 
 **Core Skills:**
 

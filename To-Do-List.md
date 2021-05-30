@@ -66,7 +66,6 @@
 - GitHub => About Me
 - Twitter => About Me
 - LinkedIn => About Me
-- Week 9 Content
 
 **Monday:**
 
@@ -77,3 +76,7 @@
 
 - Intermediate React V3 [6 Hours 7 Mins]
   [https://frontendmasters.com/courses/intermediate-react-v3/]
+
+  **Wednesday:**
+
+- Week 9 Content
