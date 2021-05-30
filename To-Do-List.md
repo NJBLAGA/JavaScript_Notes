@@ -59,15 +59,12 @@
 - CSS / Grid / Flexbox [5 Hours 38 Mins]
   [https://frontendmasters.com/courses/css-grids-flexbox/]
 
-**Sunday:**
-
-- CV => Image => Information => Template
-- About Me Sheet - GitHub => update mini projects
-- GitHub => About Me
-- Twitter => About Me
-- LinkedIn => About Me
-
 **Monday:**
+
+- GitHub => update mini projects
+- CV => Template => Information && Image
+- About Me Sheet => CA
+- About Me => Twitter/LinkedIn
 
 - Intro To React V6 [5 Hours 41 Mins]
   [https://frontendmasters.com/courses/complete-react-v6/]
@@ -79,4 +76,4 @@
 
   **Wednesday:**
 
-- Week 9 Content
+- Portfolio
