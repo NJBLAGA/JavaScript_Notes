@@ -41,7 +41,7 @@
 **Portfolio:** nathanblaga.me
 **Email:** nathanblaga90@gmail.com
 **Phone:** 0436190824
-**Portfolio:** nathanblaga.me
+
 
 ### **Personal:**
 
@@ -126,36 +126,34 @@ As a developer, I was challenged to focus heavily on mobile first design while c
 
 **Tech Skills:**
 
-- Linux Command-Line
-- Git
-- HTML 5
-- CSS 3
-- Bootstrap Framework
-- Tailwind CCS
-- JavaScript
-- React
-- Node.js
-- Ruby
-- Ruby on Rails
-- PostgreSQL
+Git
+HTML 5
+CSS 3
+Bootstrap Framework
+Tailwind CCS
+JavaScript
+React
+Node.js
+Ruby
+Ruby on Rails
+PostgreSQL
 
 **Tools:**
 
-- GitHub
-- Heroku
-- Netlify
-- VS Code
-- Trello
-- Balsamiq
+GitHub
+Heroku
+Netlify
+VS Code
+Trello
+Balsamiq
 
 **Core Skills:**
 
-- Test Driven Development
-- Mobile First Design
-- Customer Service
-- Effective within Team Collaborations and individual tasks
-- Excellent listening and communication skills
-
+Test Driven Development
+Mobile First Design
+Customer Service
+Effective within Team Collaborations and individual tasks
+Excellent listening and communication skills
 ### **Work Experience:**
 
 - Company Name
@@ -203,3 +201,20 @@ As a developer, I was challenged to focus heavily on mobile first design while c
 
 [partnerships@redhilleducation.com]
 [tamara.popper@ait.nsw.edu.au]
+
+
+
+**Social Media => About Me:**
+I am a creative, driven and passionate software developer, currently studying at Coder Academy Sydney. I am highly motivated to learn, adapt and seek growth in my personal and professional life. I work efficiently and effectively as an individual and within team collaborations. With over twelve years experience in the retail and sales industry, I am a fast, proficient learner who always exhibits a friendly and approachable professional attitude. I am a well spoken individual who excels at listening and expressing honesty alongside empathy towards clients and fellow peers.
+
+I am determined to build a strong network of like-minded developers who wish to improve and grow within the industry. I have experience in technologies such as HTML, CSS, Ruby, Rails,JavaScript and React. I am also knowledgeable and versatile in mobile first design philosophy, test driven development alongside agile software development practices and ideologies. I love working on personal and individual projects in my spare time whilst strengthening my knowledge and skills with new technologies and tools.
+
+**About Me Survey:**
+
+- About me - what are 3 UNIQUE things about you as a coder and a person that an employer would love to know? (What's your elevator pitch?)
+
+- What kind of tech career would you like to have? What will you be doing/in what field?
+
+=> I enjoy front end and back end evenly. However I think I enjoy front end just that bit more. I LOVE JavaScript, I love React, I love building the content of the app that users get to interact with, use and see. I like expressing myself visually and through smart, clean and DRY code.
+
+What is something that sets you apart as a dev from other people in your class/in the tech sector generally? (Think creatively!)
