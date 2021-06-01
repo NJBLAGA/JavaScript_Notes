@@ -42,35 +42,34 @@
 **Email:** nathanblaga90@gmail.com
 **Phone:** 0436190824
 
-
 ### **Personal:**
 
 **Short personal statement:** => => => really clear who you are and and what you’re looking for => => => Make this **unique** , to the point and honest.
 
 - What you are currently doing now
-=> Set on developing my skills as a front-end developer within the tech industry, I am currently undertaking the Flex Track Bootcamp at Coder Academy Sydney.
+  => Set on developing my skills as a front-end developer within the tech industry, I am currently undertaking the Flex Track Bootcamp at Coder Academy Sydney.
 - What are you learning at Coder Academy
-=> Whilst at Coder Academy, I have been exposed to various technologies, frameworks, tools and methodologies. These include but are not limited too; git and source control, HTML, CSS, JavaScript, React, Ruby on Rails, Test Driven Development, Mobile First Design, agile development practices and working with relational databases.
+  => Whilst at Coder Academy, I have been exposed to various technologies, frameworks, tools and methodologies. These include but are not limited too; git and source control, HTML, CSS, JavaScript, React, Ruby on Rails, Test Driven Development, Mobile First Design, agile development practices and working with relational databases.
 - What were you doing previously
-=> I have worked extensively in the Australian retail industry for over 12 years allowing myself to develop and refine my communication and problem-solving skills. After completing a Bachelor of Commerce Degree, I worked within the Australian Accounting and Finance sector.
+  => I have worked extensively in the Australian retail industry for over 12 years allowing myself to develop and refine my communication and problem-solving skills. After completing a Bachelor of Commerce Degree, I worked within the Australian Accounting and Finance sector.
 - Briefly mention your goals and motivations to get into development
-=> In 2020, I decided to pursue the tech industry to further develop my problem solving skills and express my creativity. Most importantly I wish to build and design applications, with the intentions to help people and make life easier for society.
+  => In 2020, I decided to pursue the tech industry to further develop my problem solving skills and express my creativity. Most importantly I wish to build and design applications, with the intentions to help people and make life easier for society.
 
 ### **Projects:**
 
 **Coding projects:** => => => **Describe** && **Explain** the work you have completed in the course! Explaining your projects and how much work into them.
 
 - Name of the project
-=> Languages and tools used
-=> Brief description of each project
-=> Key Challenges /achievements you experienced
-=> This demonstrates your willingness ot overcome challenges and ways in which you overcome
+  => Languages and tools used
+  => Brief description of each project
+  => Key Challenges /achievements you experienced
+  => This demonstrates your willingness ot overcome challenges and ways in which you overcome
 
 **Hackathon - Get Lucky 3000:**
 
 - Tech Stack:
 
- => HTML / CSS / JavaScript
+=> HTML / CSS / JavaScript
 
 - Description:
 
@@ -84,7 +83,7 @@ The primary challenge of this project was designing and developing the applicati
 
 - Tech Stack:
 
- => Ruby on Rails / PostreSQL / HTML / Bootstrap Framework / Heroku / Cloudinary / Trello / Balsamiq
+=> Ruby on Rails / PostreSQL / HTML / Bootstrap Framework / Heroku / Cloudinary / Trello / Balsamiq
 
 - Description:
 
@@ -92,7 +91,7 @@ Workout Jungle is a two-sided marketplace in which Australian consumers can buy 
 
 - Challenges:
 
-Workout Jungle allowed me to experience the development of a full-stack application through an agile based development process. This forced me to construct the web application and its features within various sprints. The project was deployed continuously on Heroku which challenged me to refine my knowledge and skills with Git branching, while working with development and production pipelines. Workout Jungle allowed me to build a  relational database for the applications users and listings, which was an amazing experience while challenging at the same time.
+Workout Jungle allowed me to experience the development of a full-stack application through an agile based development process. This forced me to construct the web application and its features within various sprints. The project was deployed continuously on Heroku which challenged me to refine my knowledge and skills with Git branching, while working with development and production pipelines. Workout Jungle allowed me to build a relational database for the applications users and listings, which was an amazing experience while challenging at the same time.
 
 **Zop Ruby Quiz Game:**
 
@@ -102,7 +101,7 @@ Workout Jungle allowed me to experience the development of a full-stack applicat
 
 - Description:
 
- Zop is a terminal based quiz game build completely with Ruby. Zop will prompt a player with a serious of random questions ranging in difficulty, while tracking their current score and attempts remaining.
+Zop is a terminal based quiz game build completely with Ruby. Zop will prompt a player with a serious of random questions ranging in difficulty, while tracking their current score and attempts remaining.
 
 - Challenges:
 
@@ -112,7 +111,7 @@ This project challenged me to focus on test driven development and error handlin
 
 - Tech Stack:
 
- => HTML / CSS / JavaScript / Trello / Balsamiq
+=> HTML / CSS / JavaScript / Trello / Balsamiq
 
 - Description:
 
@@ -154,6 +153,7 @@ Mobile First Design
 Customer Service
 Effective within Team Collaborations and individual tasks
 Excellent listening and communication skills
+
 ### **Work Experience:**
 
 - Company Name
@@ -176,7 +176,7 @@ Excellent listening and communication skills
 
 ### **Education History:**
 
-- Name of qualification 
+- Name of qualification
 - Institution Name
 - Start date and completion date of qualification
 
@@ -202,8 +202,6 @@ Excellent listening and communication skills
 [partnerships@redhilleducation.com]
 [tamara.popper@ait.nsw.edu.au]
 
-
-
 **Social Media => About Me:**
 I am a creative, driven and passionate software developer, currently studying at Coder Academy Sydney. I am highly motivated to learn, adapt and seek growth in my personal and professional life. I work efficiently and effectively as an individual and within team collaborations. With over twelve years experience in the retail and sales industry, I am a fast, proficient learner who always exhibits a friendly and approachable professional attitude. I am a well spoken individual who excels at listening and expressing honesty alongside empathy towards clients and fellow peers.
 
@@ -213,8 +211,31 @@ I am determined to build a strong network of like-minded developers who wish to 
 
 - About me - what are 3 UNIQUE things about you as a coder and a person that an employer would love to know? (What's your elevator pitch?)
 
+=> Over the last 4 years, I have lost over 60kgs and continue to work on my weight. This speaks to my persistence, hard word, and dedication as an individual. This also translates to my coding and motivation to become a software developer. I understand that the journey is not easy, and there will be both heartbreaks and triumphs. However, I continuously strive to learn from my past experiences in order to grow in my personal and professional life.
+=> One of my strongest qualities as a person and coder is I strive to actively listen to the needs and wants of clients and peers around me. I truly believe that this is the key to succeeding at anything in life. It also assists in my passion to help others as I want nothing more than to impact people's lives with a positive outlook through my code and design.
+=> By nature, I am a storyteller. I love to express my imagination and ideas through my code. For this reason, the front-end strongly resonates with me as I strive to create beautiful and amazing experiences for users and clients alike.
+
 - What kind of tech career would you like to have? What will you be doing/in what field?
 
-=> I enjoy front end and back end evenly. However I think I enjoy front end just that bit more. I LOVE JavaScript, I love React, I love building the content of the app that users get to interact with, use and see. I like expressing myself visually and through smart, clean and DRY code.
+=> Through my endeavours and education, I have thoroughly enjoyed the idea of a full-stack developer. However, recently I experienced a real drive to pursue a front-end oriented career. The thought of building a web application that users interact with fuels my passion as I enjoy expressing myself visually through efficient and creative code.
 
-What is something that sets you apart as a dev from other people in your class/in the tech sector generally? (Think creatively!)
+- What is something that sets you apart as a dev from other people in your class/in the tech sector generally? (Think creatively!)
+
+=> I have a mature mindset to my development approach as I understand that errors and bugs will always occur. However, I also recognise that persistence, hard work and dedication will inevitably overcome and solve any issue.
+=> I am not afraid to fail and learn from my mistakes. I believe there is a lesson to be learnt at every corner. For every mistake made, knowledge is gained.
+=> Having various backgrounds in the acting, retail and finance industry, this assists in my ability to relate to differing client's wants and formulate effective solutions to meet their needs.
+
+- Select UP TO 4 things that you are best at, or enjoy, as a dev:
+- => Frontend work
+- => Backend work
+- => Presenting your ideas to other people
+- => Working in a team
+- => Leading projects/other people
+- => De-bugging and testing
+- => Explaining concepts to other people
+- => Solving real world problems
+- => Working on someone else's code/code base
+- => Independent learning (picking up things in your spare time)
+- => Documentation
+- => Design
+- => Other:
